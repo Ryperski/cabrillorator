@@ -136,7 +136,7 @@ class QSOApp(tk.Tk):
         help_window = tk.Toplevel(self)
         help_window.title("Help")
         help_text = tk.Text(help_window, wrap=tk.WORD)
-        help_text.insert(tk.END, "Creator: KC1RVK\nWhat: A simple Cabrillo format QSO logger\nVer: v0.1beta 050323\nFeedback and Ideas:  Find my contact info on QRZ.COM\n\nSome Tips\n1. The Keep button will retain those values when the Clear or Add QSO button is used\n2. Add QSO also evokes clear\n3. Date and Time are in UTC\n4. Hittign the ENTER key will evoke Add QSO\n5. MAKE SURE YOU SAVE THE LOG")
+        help_text.insert(tk.END, "Creator: KC1RVK\nWhat: A simple Cabrillo format QSO logger\nVer: v0.1beta 050323\nFeedback and Ideas:  Find my contact info on QRZ.COM\n\nSome Tips\n1. The Keep button will retain those values when the Clear or Add QSO button is used\n2. Add QSO also evokes clear\n3. Date and Time are in UTC\n4. Hitting the ENTER key will evoke Add QSO\n5. MAKE SURE YOU SAVE THE LOG")
         help_text.config(state=tk.DISABLED)
         help_text.pack(expand=True, fill=tk.BOTH)
         help_window.geometry("450x200")
