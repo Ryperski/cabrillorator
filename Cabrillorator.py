@@ -1,3 +1,7 @@
+#Cabrillorator v0.1
+#by KC1RVK September 2023
+#Cabrillorator is a simple program to allow a user to enter Amatuer Radio QSO information and store it in Cabrillo format.  The application is optimized to make it easy to quickly capture QSOs during a contest or other rapid fire contact formats.
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
